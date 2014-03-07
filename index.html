@@ -1,4 +1,45 @@
-Ne srebro ali bron. Želela sem zlato!
-Če imaš v domači zbirki veliki kristalni globus ter zlato kolajno svetovnega prvenstva, je povsem naravno, da želiš sliko dopolniti še z najžlahtnejšim olimpijskim odličjem.
-Za zlato olimpijsko kolajno moraš pravilno zložiti vse delce velike sestavljanke.
-Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).
+<!DOCTYPE html>
+
+<html>
+  <head> 
+  	<title> Naloga1 </title>
+	<meta charset="utf-8" />
+  </head>
+  <body>
+
+	<h1> Ne srebro ali bron. <mark>Želela sem zlato!</mark> </h1>
+	<hr />
+	<img src="tina.png" alt="Zlata Tina" height="200px" width="300px" style="height:400px; width:600px;" />
+	<!-- povecanje slike sem ponazoril kar z atributom style (css kodo) - upam, da je prav misljeno, saj je na vprasanje, kaj bi to pomenilo 200% (ali 
+	     2-krat velikost ekrana ali se enkrat vecja slika), profesor na predavanjih odgovoril, da naj izracunamo novo velikost slike (visina*2,...) -->
+	<p> Če imaš v domači zbirki veliki kristalni globus ter zlato kolajno svetovnega prvenstva, je povsem naravno, da želiš sliko dopolniti še z najžlahtnejšim olimpijskim odličjem.
+		Za zlato olimpijsko kolajno moraš pravilno zložiti vse delce velike sestavljanke.
+		<details>
+			<summary>Več o zlati Tini</summary>
+			<p>Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).</p>
+		</details>
+	</p>
+	<p>		Ocena dosežka: <meter value="5" min="1" max="5">5/5</meter> (5/5) </p>
+	<!-- !!!!moj dodatek - div, fieldset in legend za lepso preglednost!!!! -->
+	<div>
+	<p>
+		<form>
+		<fieldset style="width:25%;">
+		  <legend>Forma za glasovanje: </legend>
+			<input type = "text" autofocus="true" placeholder = "Pošlji Tini sporočilo" list = "dl1" />
+			<datalist id="dl1">
+			  <option value="Bravo, Tina!">
+			  <option value="Tina, zlata si!">
+			  <option value="Ti si najboljša!">
+			  <option value="Čestitke iz Slovenije!">
+			</datalist>
+			<br />
+			Ocena: 1<input type="range" name="ocena" min="1" max="5" />5
+			<br />
+			<!-- to bi se potrebovali v praksi <input type = "submit" value="Pošlji" /> -->
+		</fieldset>
+		</form>
+	</p>
+	</div>
+   </body>
+</html>
