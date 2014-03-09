@@ -1,25 +1,29 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<h1>Ne srebro ali bron. <mark>Želela sem zlato!</mark></h1>
+<style>
+mark{background-color:white;color:red;}
+h1,p,details,form{text-align:center;}
+</style>
 </head>
+
 <body>
+<h1>Ne srebro ali bron. <mark>Želela sem zlato!</mark></h1>
 <hr>
 <p>Če imaš v domači zbirki veliki kristalni globus ter zlato kolajno svetovnega prvenstva, je povsem naravno, da želiš sliko dopolniti še z najžlahtnejšim olimpijskim odličjem.</p>
 <p>Za zlato olimpijsko kolajno moraš pravilno zložiti vse delce velike sestavljanke.</p>
 <details>
-<summary>Več o zlati Tini</summary>
-<p>Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).</p>
+	<summary>Več o zlati Tini</summary>
+	<p>Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).</p>
 </details>
-<img src="tina.png" height="400" width="600">
-<p><form action="SendToTina.asp" method="get">
-  <input list="sporocila" type="text" name="fname" placeholder="Pošlji Tini sporočilo" autofocus><br>
-  Ocena: 1<input type="range" name="ocena" min="1" max="5">5
-  <input type="submit" value="Pošlji"><br>
-</form>
-Skupna ocena Tininega dosežka:<br>
-<meter value="5" min="1" max="5">5/5</meter>
-</p>
+<p><img src="tina.png" height="400" width="600">
+<form action="SendToTina.asp" method="get">
+		Ocena: 1<input type="range" name="ocena" min="1" max="5">5<br>
+		<input list="sporocila" type="text" name="fname" placeholder="Pošlji Tini sporočilo" autofocus>
+		<input type="submit" value="Pošlji"><br>
+</form></p>
+<p>Skupna ocena Tininega dosežka:<br>
+<meter value="5" min="1" max="5">5/5</meter></p>
 
 <datalist id="sporocila">
   <option value="Bravo Tina!">
