@@ -1,4 +1,35 @@
-Ne srebro ali bron. Želela sem zlato!
-Če imaš v domači zbirki veliki kristalni globus ter zlato kolajno svetovnega prvenstva, je povsem naravno, da želiš sliko dopolniti še z najžlahtnejšim olimpijskim odličjem.
-Za zlato olimpijsko kolajno moraš pravilno zložiti vse delce velike sestavljanke.
-Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Tina Maze</title>
+	</head>
+	<body>		
+		<h1>Ne srebro ali bron. <mark>Želela sem zlato!</mark></h1>
+		<hr>
+		<p>Če imaš v domači zbirki veliki kristalni globus ter zlato kolajno svetovnega prvenstva, je povsem naravno, da želiš sliko dopolniti še z najžlahtnejšim olimpijskim odličjem.</p>
+		Za zlato olimpijsko kolajno moraš pravilno zložiti vse delce velike sestavljanke.
+		<br>
+		<img src="tina.png" height="400" width="600" />
+		<br>
+		Ocena: <meter value="1">5/5</meter>
+		<br>
+		<details>
+			<summary>Več o zlati Tini</summary>
+			<p>Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).</p>
+		</details>
+		<br>
+		<form autocomplete="on">
+			Sporočilo: <input type="text" placeholder="Pošlji Tini sporočilo" name="sporocilo" list="sporocilo" autofocus>
+			<datalist id="sporocilo">
+				<option value="Bravo Tina">Bravo Tina</option>
+				<option value="Tina, zlata si!">Tina, zlata si!</option>
+				<option value="Dej še čez 4 leta!">Dej še čez 4 leta!</option>
+				<option value="Noro">Noro</option>
+				<option value="Sploh nevem kaj nej rečem">Sploh nevem kaj nej rečem</option>
+			</datalist><br>
+			Ocena: 0<input type="range" name="ocena" min="1" max="5">5<br>
+			<input type="submit">
+		</form>
+	</body>
+</html>
