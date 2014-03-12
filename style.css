@@ -1,0 +1,14 @@
+#napisi {margin:0;float:left;}
+#wrap-ocene {line-height:15px;width:280px;}
+#ocene {margin:0;float:right;}
+body {font-family:Arial, Helvetica, sans-serif;}
+meter {width:132px;vertical-align:middle;}
+input[type="range"] {vertical-align:middle;}
+img.zoom {
+	margin:100px 150px;
+	-webkit-transform:scale(2); /* Safari and Chrome */
+	-moz-transform:scale(2); /* Firefox */
+	-ms-transform:scale(2); /* IE 9 */
+	transform:scale(2);
+	-o-transform:scale(2); /* Opera */
+}
