@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
 </head>
@@ -8,16 +8,18 @@
 
   <hr>
 
+  <div style="color:#000000">
   <p>
     Če imaš v domači zbirki veliki kristalni globus ter zlato kolajno svetovnega prvenstva, je povsem naravno, da želiš sliko dopolniti še z najžlahtnejšim olimpijskim odličjem.
     Za zlato olimpijsko kolajno moraš pravilno zložiti vse delce velike sestavljanke.
     
     <details>
       <summary>Vec o zlati Tini!</summary>
-      Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).
+      <p>Tina Maze je najuspešnejša slovenska alpska smučarka v Svetovnem pokalu. Je ena izmed šestih smučark, ki so zmagale v vseh petih disciplinah in ena od treh, ki jim je to uspelo v eni sami sezoni. V dosedanji karieri ima 22 zmag in je aktualna svetovna prvakinja v superveleslalomu (2013).</p>
     </details>
     
   </p>
+  </div>
   <img src = "tina.png" width="600" height="400">
   
   <br>
@@ -28,17 +30,19 @@
   <meter value="5" min="0" max="5"></meter>5/5
   <br>
   <br>
-  <input type="text" list="komentarji" size ="70" autofocus="on" placeholder="Pošlji Tini sporočilo!">
+  <form post=""> 
+  <input type="text" list="komentarji" size ="70" placeholder="Pošlji Tini sporočilo!" autofocus>
   <datalist id="komentarji">
     <option value="Bravo Tina!">
     <option value="Tina ti si zlata ptička">
     <option value="Tina radi te imamo">
   </datalist>
-  <input type="submit">
   <br>
-  Oceni Tinin dosezek!
+  <p>Oceni Tinin dosezek!</p>
   <br>
-  <input type ="range" min="1" max="5" step=1">
+  <input type ="range" min="1" max="5" step="1">
+   <input type="submit">
+  </form>
   </body>
   
 </html>
